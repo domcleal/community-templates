@@ -5,5 +5,4 @@ install:
   - pip install --user pycurl
   - pip install --user urlgrabber
   - git clone --depth 1 git://git.fedorahosted.org/git/pykickstart.git
-  - git checkout r2.20.1
-  - (cd pykickstart && pip install --user .)
+  - (cd pykickstart && git checkout r2.20.1 && pip install --user .)
