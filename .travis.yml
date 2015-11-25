@@ -2,7 +2,7 @@ sudo: false
 language: ruby
 rvm: 1.9.3
 install:
-  - pip install --user . pycurl
-  - pip install --user . urlgrabber
+  - pip install --user pycurl
+  - pip install --user urlgrabber
   - git clone --depth 1 -b r1.99.48-1 git://git.fedorahosted.org/git/pykickstart.git
   - (cd pykickstart && pip install --user .)
